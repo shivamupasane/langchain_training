@@ -115,3 +115,6 @@ response = scifi_agent.invoke({
 #print(response['messages'][-1].text)
 
 print(response['structured_response'].name)
+
+
+
