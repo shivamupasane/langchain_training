@@ -96,7 +96,7 @@ Vibe: 2-3 words to describe its vibe
 Economy: Main industries
 
 """
-# structure
+# structure 1
 from pydantic import BaseModel
 class CapitalInfo(BaseModel):
     name:str
