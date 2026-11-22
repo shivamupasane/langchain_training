@@ -96,6 +96,7 @@ Vibe: 2-3 words to describe its vibe
 Economy: Main industries
 
 """
+# structure
 from pydantic import BaseModel
 class CapitalInfo(BaseModel):
     name:str
@@ -112,4 +113,5 @@ response = scifi_agent.invoke({
     "messages": [message]
 })
 #print(response['messages'][-1].text)
+
 print(response['structured_response'].name)
